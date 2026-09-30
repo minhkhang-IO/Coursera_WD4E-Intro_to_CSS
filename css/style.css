@@ -1,0 +1,29 @@
+main {
+  min-height: 100px;
+}
+*/ nav a {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style-type: none;
+}
+
+.current {
+  text-transform: uppercase;
+  background-color: rgb(255, 1, 1);
+  border-bottom: 2px solid black;
+}
+#main_content {
+  text-transform: uppercase;
+  background-color: rgb(255, 1, 1);
+  border-bottom: 2px solid black;
+  color: yellow;
+}
